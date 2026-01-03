@@ -49,11 +49,11 @@
 
 | **Login Screen** | **Lobby & Inbox** |
 |:---:|:---:|
-| <img src="path/to/login-screenshot.png" width="400" alt="Login" /> | <img src="path/to/lobby-screenshot.png" width="400" alt="Lobby" /> |
+| <img src="path/to/login-screenshot.png" width="400" alt="Login" /> | <img src="path/to/welcome.png" width="400" alt="Lobby" /> |
 
 | **Encrypted Chat** | **Profile Settings** |
 |:---:|:---:|
-| <img src="path/to/chat-screenshot.png" width="400" alt="Chat" /> | <img src="path/to/profile-screenshot.png" width="400" alt="Profile" /> |
+| <img src="path/to/chat-screenshot.png" width="400" alt="Chat" /> | <img src="path/to/profile.png" width="400" alt="Profile" /> |
 
 ---
 

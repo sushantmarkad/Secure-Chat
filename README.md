@@ -1,22 +1,30 @@
 <div align="center">
 
-  <img src="public/icons/icon-512.webp" alt="Secure Chat Logo" width="120" />
+  <img src="public/icons/icon-512.webp" alt="Secure Chat Logo" width="140" />
 
   # 🔐 Secure Chat
+
+  **The Future of Private, Real-time Communication.**
   
-  **The Next-Gen Real-time Encrypted Messaging Platform**
-  
+  *Built for privacy. Designed for speed. Styled for the modern web.*
+
+  <p>
+    <a href="YOUR_DEPLOYED_LINK_HERE" target="_blank">
+      <img src="https://img.shields.io/badge/LIVE_DEMO-FF0055?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+    </a>
+  </p>
+
   <p>
     <a href="#-features">Features</a> •
     <a href="#-tech-stack">Tech Stack</a> •
-    <a href="#-getting-started">Getting Started</a> •
-    <a href="#-screenshots">Screenshots</a>
+    <a href="#-getting-started">Run Locally</a> •
+    <a href="#-gallery">Gallery</a>
   </p>
 
-  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+  ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 </div>
 
@@ -24,55 +32,59 @@
 
 ## 🚀 Overview
 
-**Secure Chat** is a modern, end-to-end encrypted messaging application built for privacy and speed. Featuring a stunning **Glassmorphism UI** and **fluid animations**, it offers a premium chat experience. Users can chat globally, create temporary **Secret Rooms**, and track real-time online presence with WhatsApp-like precision.
+**Secure Chat** isn't just another messaging app; it is a fortress for your data wrapped in a stunning **Glassmorphism UI**.
 
-## ✨ Features
-
-- **🔒 End-to-End Encryption:** Messages are secured using client-side encryption.
-- **⚡ Real-time Messaging:** Instant message delivery powered by Firebase Realtime Database & Firestore.
-- **🟢 Smart Presence System:** Advanced online/offline status handling (detects tab switching & internet loss).
-- **🎨 Cosmic Glass UI:** A premium dark mode aesthetic with deep gradients and blur effects.
-- **🕵️ Secret Rooms:** Generate a temporary 6-digit code to chat privately without saving history.
-- **📱 PWA & Mobile Ready:** Built with Capacitor for native mobile functionality.
-- **📬 Smart Inbox:** Floating inbox drawer to quickly access recent conversations.
-- **👤 Profile Customization:** Auto-generated avatars based on gender/name with editable profiles.
+We leverage **AES-GCM encryption** to ensure your messages are locked before they ever leave your device. Whether you are chatting globally, using our one-time **Secret Rooms**, or tracking presence with millisecond precision, Secure Chat offers a fluid, premium experience that rivals native applications.
 
 ---
 
-## 📸 Screenshots
+## ✨ Key Features
 
-<div align="center">
+| Feature | Description |
+| :--- | :--- |
+| **🔐 Military-Grade Security** | End-to-End Encryption using the Web Crypto API. Server admins cannot read your messages. |
+| **⚡ Blazing Fast Sync** | Powered by **Firebase Realtime Database & Firestore** for sub-100ms latency. |
+| **🟢 True Presence** | Smart detection handles tab switching, internet loss, and backgrounding instantly. |
+| **🎨 Cosmic Aesthetics** | A deep, dark-mode-first UI featuring glassmorphism, blurs, and **Framer Motion** animations. |
+| **🕵️ Secret Ops** | Generate 6-digit **Secret Room** codes for temporary, history-free encrypted sessions. |
+| **📱 Native Feel** | Fully PWA compliant and mobile-optimized via **Capacitor**. |
+
+---
+
+## 📸 Gallery
+
+<div align="center" id="-gallery">
   <table style="border: none;">
     <tr>
       <td align="center" style="border: none;">
-        <img src="screenshots/welcome.png" width="250" alt="Login & Welcome Screen" style="border-radius: 10px;" />
+        <img src="screenshots/welcome.png" width="250" alt="Login Screen" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);" />
         <br />
-        <b>Login & Sign Up</b>
+        <sub><b>✨ Fluid Onboarding</b></sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="screenshots/dashboard.png" width="250" alt="Lobby Dashboard" style="border-radius: 10px;" />
+        <img src="screenshots/dashboard.png" width="250" alt="Lobby" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);" />
         <br />
-        <b>Lobby & Global Users</b>
+        <sub><b>🌍 Global Lobby</b></sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="screenshots/interface.png" width="250" alt="Chat Interface" style="border-radius: 10px;" />
+        <img src="screenshots/interface.png" width="250" alt="Chat UI" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);" />
         <br />
-        <b>Encrypted Chat</b>
+        <sub><b>💬 Encrypted Chat</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center" style="border: none;">
-        <img src="screenshots/options.png" width="250" alt="Options & Inbox" style="border-radius: 10px;" />
+        <img src="screenshots/options.png" width="250" alt="Smart Inbox" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);" />
         <br />
-        <b>Smart Inbox</b>
+        <sub><b>📬 Smart Drawer</b></sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="screenshots/profile.png" width="250" alt="Profile Settings" style="border-radius: 10px;" />
+        <img src="screenshots/profile.png" width="250" alt="Profile" style="border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);" />
         <br />
-        <b>Profile Settings</b>
+        <sub><b>👤 Identity Control</b></sub>
       </td>
       <td align="center" style="border: none;">
-        </td>
+      </td>
     </tr>
   </table>
 </div>
@@ -81,11 +93,23 @@
 
 ## 🛠 Tech Stack
 
-* **Frontend:** React.js (Vite)
-* **Styling:** Tailwind CSS, Framer Motion (Animations)
-* **Backend:** Firebase (Auth, Firestore, Realtime Database, Hosting)
-* **Mobile Wrapper:** Capacitor (Android/iOS support)
-* **Security:** Web Crypto API (AES-GCM Encryption)
+### **Core**
+* **Framework:** [React 18](https://reactjs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+
+### **Backend & Services**
+* **Auth & DB:** Google Firebase (Auth, Firestore, Realtime DB)
+* **Encryption:** Web Crypto API (SubtleCrypto)
 
 ---
 
+## 💻 Getting Started (Run Locally)
+
+If you want to run this project locally, you will need to provide your own Firebase credentials.
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/your-username/secure-chat.git](https://github.com/your-username/secure-chat.git)
+   cd secure-chat
+   npm install

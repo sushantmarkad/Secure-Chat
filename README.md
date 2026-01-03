@@ -83,5 +83,5 @@ Users can chat globally, create temporary **Secret Rooms**, and track real-time 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by [Your Name]</p>
+  <p>Made with ❤️ by Sushant Markad </p>
 </div>

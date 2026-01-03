@@ -28,32 +28,54 @@
 
 ## ✨ Features
 
-- **🔒 End-to-End Encryption:** Messages are encrypted using AES-GCM (Web Crypto API) before leaving the device.
-- **⚡ Real-time Messaging:** Instant message delivery powered by Firebase Firestore.
-- **🟢 Live Presence System:** WhatsApp-style status (Online, Offline, Last Seen at...) handling tab switching and disconnects.
-- **🎨 Cosmic Glass UI:** A beautiful dark mode aesthetic with deep gradients, blur effects, and Framer Motion animations.
-- **🕵️ Secret Rooms:** Generate a temporary 6-digit code to chat privately without friend requests.
-- **📱 PWA Ready:** Installable as a native app on Android and iOS.
-- **👤 Profile Customization:** Auto-generated avatars based on gender/name, with editable bio details.
-- **📬 Smart Inbox:** Quickly resume recent conversations from the floating inbox drawer.
+- **🔒 End-to-End Encryption:** Messages are secured using client-side encryption.
+- **⚡ Real-time Messaging:** Instant message delivery powered by Firebase Realtime Database & Firestore.
+- **🟢 Smart Presence System:** Advanced online/offline status handling (detects tab switching & internet loss).
+- **🎨 Cosmic Glass UI:** A premium dark mode aesthetic with deep gradients and blur effects.
+- **🕵️ Secret Rooms:** Generate a temporary 6-digit code to chat privately without saving history.
+- **📱 PWA & Mobile Ready:** Built with Capacitor for native mobile functionality.
+- **📬 Smart Inbox:** Floating inbox drawer to quickly access recent conversations.
+- **👤 Profile Customization:** Auto-generated avatars based on gender/name with editable profiles.
 
 ---
 
-## 📸 Screenshots & Demo
+## 📸 Screenshots
 
-<div align="center"> 
-  <img src="path/to/your/demo.gif" alt="App Demo Walkthrough" width="800" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="screenshots/welcome.png" width="250" alt="Login & Welcome Screen" style="border-radius: 10px;" />
+        <br />
+        <b>Login & Sign Up</b>
+      </td>
+      <td align="center" style="border: none;">
+        <img src="screenshots/dashboard.png" width="250" alt="Lobby Dashboard" style="border-radius: 10px;" />
+        <br />
+        <b>Lobby & Global Users</b>
+      </td>
+      <td align="center" style="border: none;">
+        <img src="screenshots/interface.png" width="250" alt="Chat Interface" style="border-radius: 10px;" />
+        <br />
+        <b>Encrypted Chat</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="screenshots/options.png" width="250" alt="Options & Inbox" style="border-radius: 10px;" />
+        <br />
+        <b>Smart Inbox</b>
+      </td>
+      <td align="center" style="border: none;">
+        <img src="screenshots/profile.png" width="250" alt="Profile Settings" style="border-radius: 10px;" />
+        <br />
+        <b>Profile Settings</b>
+      </td>
+      <td align="center" style="border: none;">
+        </td>
+    </tr>
+  </table>
 </div>
-
-<br />
-
-| **Login Screen** | **Lobby & Inbox** |
-|:---:|:---:|
-| <img src="path/to/login-screenshot.png" width="400" alt="Login" /> | <img src="path/to/welcome.png" width="400" alt="Lobby" /> |
-
-| **Encrypted Chat** | **Profile Settings** |
-|:---:|:---:|
-| <img src="path/to/chat-screenshot.png" width="400" alt="Chat" /> | <img src="path/to/profile.png" width="400" alt="Profile" /> |
 
 ---
 
@@ -61,8 +83,8 @@
 
 * **Frontend:** React.js (Vite)
 * **Styling:** Tailwind CSS, Framer Motion (Animations)
-* **Backend / DB:** Firebase Firestore & Realtime Database
-* **Authentication:** Firebase Auth (Google & Email/Password)
+* **Backend:** Firebase (Auth, Firestore, Realtime Database, Hosting)
+* **Mobile Wrapper:** Capacitor (Android/iOS support)
 * **Security:** Web Crypto API (AES-GCM Encryption)
 
 ---
@@ -73,5 +95,5 @@ Follow these steps to run the project locally.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/secure-chat.git](https://github.com/your-username/secure-chat.git)
+git clone [https://github.com/sushantmarkad/secure-chat.git](https://github.com/sushantmarkad/secure-chat.git)
 cd secure-chat
